@@ -1,17 +1,23 @@
 body {
-  display: flex;
-  justify-content: center;
-  
+	display: flex;
+	justify-content: center;
 }
-.App{
-  background-color: coral;
+.App {
+	background-color: coral;
 }
 #root {
-  width: 50%;
- 
-  padding: 30px;
-  height: 100%;
+	width: 50%;
+
+	padding: 30px;
+	padding-bottom: 100px;
 }
 .input {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+.divided {
+	padding-bottom: 50px;
+}
+
+.container {
+	padding-bottom: 50px;
 }
