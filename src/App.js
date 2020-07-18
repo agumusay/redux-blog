@@ -12,12 +12,14 @@ function App() {
 		return (
 			<Router>
 				<Menu pointing secondary>
-					<Icon name='home' size='big' color='teal' />
-					<Menu.Header color='teal' content={<h2>Awesome Blog</h2>} />
+					<Menu.Header href='/'>
+						<Icon name='home' size='big' color='teal' />
+					</Menu.Header>
+					<Menu.Header content={<h2>Awesome Blog</h2>} />
 				</Menu>
 
 				<Image>
-					<img alt='' src='https://loremflickr.com/910/240/antalya?lock=16' />
+					<img alt='' src='https://loremflickr.com/910/240/antalya?lock=20' />
 				</Image>
 
 				<Switch>
